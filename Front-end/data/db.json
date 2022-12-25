@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "firstname": "Ayoub",
+      "lastname": "khenfouf",
+      "email": "kjdfg ",
+      "password": "Julian Casablancas ",
+      "wilaya": "Alger",
+      "id": 1
+    },
+    {
+      "firstname": "ouael",
+      "lastname": "sahbi",
+      "email": "sjbhf@gmail.com",
+      "password": "Julian",
+      "wilaya": "Alger",
+      "id": 2
+    },
+    {
+      "firstname": "sohaib",
+      "lastname": "zombo",
+      "email": "skfbf@gmail.com",
+      "password": "Casablancas ",
+      "wilaya": "Alger",
+      "id": 3
+    },
+    {
+      "firstname": "jsdf",
+      "lastname": "jfygqdf",
+      "email": "sdfsfqkjch",
+      "password": "waouzhefi",
+      "wilaya": "Laghouat",
+      "id": 4
+    },
+    {
+      "firstname": "jqgfqf",
+      "lastname": "qdsd",
+      "email": "fsqdqf",
+      "password": "qfqf",
+      "wilaya": "",
+      "id": 5
+    },
+    {
+      "firstname": ";wjnc",
+      "lastname": "wvwv",
+      "email": "wvqvg",
+      "password": "wvqv",
+      "wilaya": "Laghouat",
+      "id": 6
+    },
+    {
+      "firstname": "Maria",
+      "lastname": "sjgffsj",
+      "email": "km_fbjdfb,^esi.dz",
+      "password": "ksdhgskfghjsfkgk",
+      "wilaya": "Oum El Bouaghi",
+      "id": 7
+    }
+  ]
+}
