@@ -68,6 +68,47 @@ def login_user():
         "email": user.email
     })
 
+
+# Get Single Products
+@app.route('/users/<id>', methods=['GET'])
+def get_user(id):  
+  user = User.query.get(id)
+  return jsonify({
+        "id": user.id,
+        "email": user.email
+    })
+
+# Update a Product
+@app.route('/users/<id>', methods=['PUT'])
+def update_user(id):
+  user = User.query.get(id)
+
+  email = request.json['email']
+  password = request.json['password']
+  hashed_password = bcrypt.generate_password_hash(password)
+
+  user.email = email
+  user.password = hashed_password
+
+  db.session.commit()
+
+  return jsonify({
+        "id": user.id,
+        "email": user.email
+    })
+
+# Delete Product
+@app.route('/users/<id>', methods=['DELETE'])
+def delete_user(id):
+  user = User.query.get(id)
+  db.session.delete(user)
+  db.session.commit()
+
+  return jsonify({
+        "id": user.id,
+        "email": user.email
+    })
+
 @app.route("/logout", methods=["POST"])
 def logout_user():
     session.pop("user_id")
